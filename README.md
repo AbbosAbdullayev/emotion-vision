@@ -8,7 +8,6 @@
 - **Emotion-gated capture system** — user selects a target emotion; the system automatically triggers a full-resolution, unprocessed frame capture only when the detected emotion matches, with native save-to-disk via OpenCV
 - **Modular, config-driven architecture** — separated UI, inference, and configuration layers; no hardcoded paths, fully portable across machines
 - **Modern dark-themed UI** — custom-built PyQt5 interface (no Qt Designer dependency) with a structured sidebar, session timer, and live status indicators
-
 ## Planned extensions
 - SQLite-backed session logging with historical statistics dashboard
 - Multi-face detection with per-face emotion labeling
@@ -16,9 +15,7 @@
 - Attention scoring based on gaze direction
 - Age & gender estimation overlay via DeepFace
 - Background segmentation for privacy-preserving capture
-
-This frames the finished work as engineering decisions (threading, confidence visualization, gated capture) rather than just "I built an app," and clearly separates what's done vs planned so it stays honest. Want me to also draft the Installation / Usage sections to go right below this?Claude Fable 5 is currently unavailable.Learn more
-
+  
 ## Reference ##
 1.https://github.com/KavenLee/wpod_ocr
 
