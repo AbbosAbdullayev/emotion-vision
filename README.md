@@ -1,5 +1,3 @@
-**This project involves AI facial expression and ui with pyqt5 designed** 
-## Testing ##
 ![Demo](assets/face_sample.gif)
 
 ## Highlights
